@@ -27,4 +27,4 @@ function compose ( ...listrs ) {
 
 /* EXPORT */
 
-export default compose;
+export = Object.assign ( compose, { default: compose } );
