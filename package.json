@@ -27,9 +27,10 @@
     "compose",
     "cli"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^10.12.8"
+  },
   "devDependencies": {
-    "@types/node": "^10.9.4",
     "listr": "0.14.2",
     "rimraf": "^2.6.0",
     "typescript": "^3.0.3",
